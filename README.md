@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Make sure you have `ruby` 3.2.2 and `rails` set up on your computer
+2. Clone the repo
+3. Run `bundle`
+4. Run `rails db:reset` && `rails db:seed`
+5. Run `rails server -b <YOUR_DOMAIN>`
+6. Go to `http://<YOUR_DOMAIN>/graphiql` and everything should work
